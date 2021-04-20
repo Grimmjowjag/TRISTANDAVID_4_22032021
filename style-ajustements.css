@@ -1,0 +1,85 @@
+/* Taille police ajustée */
+p{
+    font-size: 15px;
+}
+
+/* Contraste des textes augmenté */
+.btn-atomic-tangerine{
+    color: #424242!important;
+}
+
+/* "Citation bas de page pour projet" */
+#bloc-5-cta {
+    background-color: black; 
+}
+
+/* Opacité texture papier diminuée */
+#bloc-5-cta.texture-paper::before{
+    opacity: 0.5;
+}
+
+/* Centrer images portfolio version mobile */
+
+@media (max-width: 767px){
+    .portfolio-thumb{
+        margin: auto;
+    }
+}
+
+/* Contraste texte footer */
+#bloc-8 p{
+    color: #424242!important;
+}
+
+#bloc-8 .fa{
+    color: #424242!important;
+}
+
+#bloc-8 .col-sm-4{
+    color: #424242!important;
+    font-size: 14px;
+}
+
+#bloc-8 .col-sm-4 ul{
+    list-style: none;
+}
+
+#bloc-8 ul a{
+    color: #424242!important;
+}
+
+
+/* Page Contact */
+
+/* Contraste couleurs */
+
+#bloc-6 h1{
+    color: #424242!important;
+}
+
+#bloc-6 p{
+    color: #424242!important;
+}
+
+/* Position adresse */
+.loc{
+    text-align: center;
+}
+
+/* Rendre les éléments interactifs visibles au passage de la souris */
+
+a:focus, a:hover{
+    border: 5px solid #424242;
+}
+
+button:focus, button:hover{
+    border: 5px solid #424242;
+}
+
+/* Augmentation espace autour des liens du footer en version mobile */
+
+@media (max-width: 767px){
+    footer li{
+        margin: 15px 0!important;
+    }
+}
