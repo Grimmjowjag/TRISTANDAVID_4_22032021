@@ -69,11 +69,11 @@ p{
 /* Rendre les éléments interactifs visibles au passage de la souris */
 
 a:focus, a:hover{
-    border: 5px solid #424242;
+    border: 3px solid #424242;
 }
 
 button:focus, button:hover{
-    border: 5px solid #424242;
+    border: 3px solid #424242;
 }
 
 /* Augmentation espace autour des liens du footer en version mobile */
